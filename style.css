@@ -3130,6 +3130,8 @@ top:0px;
 ================================ */
 
 .creative-grid {
+    margin-top: 30px;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;

@@ -1969,7 +1969,9 @@ top:0px;
 
         gap: 60px;
     }
-
+  .about-image-placeholder {
+        height: 400px;
+    }
     
     .about-image-card {
         max-width: 550px;
@@ -1997,7 +1999,7 @@ top:0px;
     }
 
     .about-image-placeholder {
-        height: 270px;
+        height: 400px;
     }
 
     .about-initial {
@@ -2023,7 +2025,7 @@ top:0px;
     }
 
     .about-image-placeholder {
-        height: 240px;
+        height: 270px;
     }
 
     .image-caption {
@@ -2044,7 +2046,7 @@ top:0px;
 @media (max-width: 700px) {
 
     .experience {
-        padding: 75px 0;
+        padding: 55px 0;
     }
 
  
@@ -2100,7 +2102,7 @@ top:0px;
 @media (max-width: 950px) {
 
     .experience {
-        padding: 90px 0;
+        padding: 55px 0;
     }
 
  
@@ -2144,7 +2146,7 @@ top:0px;
 @media (max-width: 950px) {
 
     .projects {
-        padding: 90px 0;
+        padding: 55px 0;
     }
 
 
@@ -2158,7 +2160,7 @@ top:0px;
 @media (max-width: 700px) {
 
     .projects {
-        padding: 75px 0;
+        padding: 55px 0;
     }
 
   
@@ -2174,7 +2176,7 @@ top:0px;
 @media (max-width: 950px) {
 
     .skills {
-        padding: 90px 0;
+        padding: 55px 0;
     }
 
    
@@ -2909,6 +2911,13 @@ top:0px;
     font-size: 14px;
 }
 
+.creative-grid {
+    margin-top: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
 
 /* =========================
    RESPONSIVE
@@ -2967,7 +2976,12 @@ top:0px;
     }
 
 }
-
+@media (max-width: 1469px) {
+    .creative-card-content {
+        flex-direction: column;
+      
+    }
+}
 
 .portfolio-work-grid {
     display: grid;
@@ -3125,17 +3139,8 @@ top:0px;
     .portfolio-work-info h3 {
         font-size: 22px;
     }
-}/* ================================
-   CREATIVE WORK GRID
-================================ */
-
-.creative-grid {
-    margin-top: 30px;
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
 }
+
 
 
 /* ================================
@@ -3225,7 +3230,7 @@ top:0px;
     padding: 18px 20px;
 
     display: flex;
-    align-items: center;
+    
     justify-content: space-between;
 
     gap: 18px;
